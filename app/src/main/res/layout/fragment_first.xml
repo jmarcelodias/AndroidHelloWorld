@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:id="@+id/lblAtividadeEstudos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/label_atividade_estudo"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/lblDisciplina"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/label_disciplina"
+        android:textSize="24dp" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/lblDigiteSeuNome"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/txtName"
+            android:text="@string/label_message" />
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="30dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button_first"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:layout_gravity="bottom" />
+
+    </LinearLayout>
+
+</LinearLayout>

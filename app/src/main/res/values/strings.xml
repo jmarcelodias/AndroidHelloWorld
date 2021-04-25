@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Hello World - ADS Unilasalle</string>
+    <string name="action_exit">Sair</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Próximo</string>
+    <string name="previous">Voltar a Página Principal</string>
+
+    <string name="label_atividade_estudo">Atividade de Estudos!</string>
+    <string name="label_disciplina">Desenvolvimento Para Dispositivos Móveis</string>
+    <string name="label_message">Digite o Seu Nome</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="action_exit_title">Confirmar Saída</string>
+    <string name="aciton_iten_exit">Item Sair Selecionado!</string>
+    <string name="aciton_message_exit">Deseja Sair do App ?</string>
+    <string name="action_yes">Sim</string>
+    <string name="action_no">Não</string>
+    <string name="label_ola">Olá!!!!!</string>
+    <string name="label_txtTextoOutro">Pressione o Botão Abaixo para Voltar a Tela Anterior.</string>
+</resources>
